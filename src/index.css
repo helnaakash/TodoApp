@@ -11,3 +11,159 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.log-box .row{
+  font-family: "lato", sans-serif;
+  color: #ffff;
+  background: linear-gradient(to top, #4A2D73, #333577);
+  height: 100vh;
+}
+.card {
+  background: rgba(58, 63, 68, 0.5);
+}
+.log-form button{
+  background-color: #927FA2;
+  color: #eee;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.sign-text {
+  font-weight: bold;
+}
+.text-light {
+  color: #f8f9fa!important;
+}
+.log-text
+{
+  color: #464B8F;
+}
+
+
+.todo-container {
+  width: 500px;
+  margin: auto;
+  
+  margin-top: 30px;
+}
+
+
+.input-section{
+    background-color: #7575AE;
+    padding:18px;
+    border-radius:10px ;
+    box-shadow: 0 7px 6px #0000003b;
+}
+.input-section input{
+    border-radius: 5px ;
+    border: 1px solid #ffff;
+    width:100%;
+    outline:none;
+    padding:10px;
+    box-sizing: border-box;    
+    background-color: #7575AE;
+    color:#ffff;
+
+   
+}
+input::placeholder{
+    color:#ffff;
+
+}
+ul{
+    text-align: left;
+    padding:0;
+    padding-top:20px;
+
+
+   
+
+}
+ul li{
+    list-style: none;
+    background-color: #7575AE;
+    padding:15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color:white;
+    box-shadow: 0 4px 6px #00000057;
+   
+}
+ul li i{
+    text-align:right ;
+    flex:1;
+    cursor:pointer;
+    /* display: flex;
+    align-items: flex-end;
+    justify-content: end; */
+} 
+
+h1{
+    color:#086b7d;
+    padding: 15px; 
+    margin:0;
+    margin-bottom:15px;
+}
+
+.sign-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon-1{
+    padding-right: 12px;
+}
+.icon-3{
+    padding-right: 12px;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.mainContainer button{
+    background-color: #7575AE;
+    color: white;
+    cursor: pointer;
+}
+.mainContainer-icon{
+    margin: auto;
+   
+    padding: 9px;
+   
+    
+}
+.subContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.done{
+    text-decoration: line-through;
+    opacity: 0.3;
+  
+
+}
+.mainContainer div{
+    display: flex;
+    align-items: center;
+}
+.taskNumber{
+    color:#ffff;
+    border: 1px solid pink; 
+    border-radius: 50%;
+    width:26px;
+    height:26px;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    margin-right:8px;
+    align-items: center;
+    justify-content: center;
+}
+.input-error,
+select.input-error{
+
+  color: #cc3300 ;
+  position: absolute;
+}
